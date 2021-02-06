@@ -1,0 +1,29 @@
+{
+  "name": "reddit-terminal",
+  "version": "0.0.1",
+  "description": "An online stock exchange for reddit posts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aejester/reddit-terminal.git"
+  },
+  "keywords": [
+    "reddit",
+    "terminal",
+    "stocks"
+  ],
+  "author": "aejester, InvMiqx",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aejester/reddit-terminal/issues"
+  },
+  "homepage": "https://github.com/aejester/reddit-terminal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
